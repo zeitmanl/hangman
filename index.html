@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Hangman</title>
+</head>
+<body>
+
+    
+    <div class="title"><h2>Hangman</h2></div>
+
+    <div class="container">
+        
+        <div class="platform">
+            <img src="./resources/hangman.png" width=240 height=400/>
+            <div class="head part1"><img src="./resources/head.png"/></div>
+            <div class="body part2"><img src="./resources/body.png"/></div>
+            <div class="arm1 part3"><img src="./resources/armleg.png"/></div>
+            <div class="arm2 part4"><img src="./resources/armleg.png"/></div>
+            <div class="leg1 part5"><img src="./resources/armleg.png"/></div>
+            <div class="leg2 part6"><img src="./resources/armleg.png"/></div>
+            <div class="word-bank"></div>
+        </div>
+        <div class="word">
+            <div class="letter">H</div>
+            <div class="letter">e</div>
+            <div class="letter">l</div>
+            <div class="letter">l</div>
+            <div class="letter">o</div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <button id="newGame">New Game</button>
+        <!-- <button id="hint">Hint</button> -->
+    </div>
+
+    <audio src="./resources/winner.mp3" id="winner"></audio>
+    <audio src="./resources/loser.mp3" id="loser"></audio>
+
+    
+    
+</body>
+
+<!--<script src="words.js" async></script>-->
+<script src="script.js" async></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+
+</html>

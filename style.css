@@ -1,0 +1,116 @@
+html {
+    background-color: burlywood;
+    height: 100%;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.platform {
+    height: 400px;
+}
+
+.blank {
+    width: 20px;
+    height: 35px;
+    display: inline;
+    float: left;
+    font-size: 2rem;
+    margin: 0 5px;
+    border-bottom: 5px solid black;
+}
+
+.word {
+    position: relative;
+    bottom: 415px;
+}
+
+.letter {
+    width: 20px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: inline;
+    float: left;
+    font-size: 2rem;
+    margin: 0 5px;
+    border-bottom: 5px solid black;
+}
+
+.controls{
+    padding: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.word-bank {
+    position: relative;
+    top: -790px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 2rem;
+    display: inline;
+    float: right;
+    margin: 20px 5px;
+    letter-spacing: 5px;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.part1 {
+    position: relative;
+    top:-290px;
+    left:45px;
+    width: 50px;
+    visibility: hidden;
+}
+
+.part2 {
+    position: relative;
+    top: -300px;
+    left: 72px;
+    width: 20px;
+    visibility: hidden;
+}
+
+.part3 {
+    position: relative;
+    top: -275px;
+    left: 25px;
+    rotate: 30deg;
+    visibility: hidden;
+}
+
+.part4 {
+    position: relative;
+    top: -327px;
+    right: 360px;
+    rotate: 150deg;
+    visibility: hidden;
+}
+
+.part5 {
+    position: relative;
+    rotate: 30deg;
+    top: -300px;
+    left: 30px;
+    visibility: hidden;
+}
+
+.part6 {
+    position: relative;
+    rotate: 150deg;
+    top: -355px;
+    right: 362px;
+    visibility: hidden;
+}
