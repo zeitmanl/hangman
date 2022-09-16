@@ -9,7 +9,9 @@ My program has a bank of 50 English words that include verbs and nouns that are 
 
 I used HTML, CSS, and JavaScript to write this program because I thought it'd be a good exercise in JavaScript. I was challenged with manipulating the CSS to create the appropriate amount of letter spaces, placing the words in the word bank and preventing duplicates from appearing in the bank, and creating a stick figure that would be revealed in pieces with GIMP and CSS.
 
-Anyone can play this game with a browser. To begin, simply press "New Game" and start typing your guesses on your keyboard. I tested this in Chrome on Mac OS Big Sur, so please reach out if you experience bugs or difficulty playing this game on a different browser.
+To install, you need the index.html, style.css, script.js files and the resources folder.
+
+To begin, open index.html in your browser and simply press "New Game" and start typing your guesses on your keyboard. I tested this in Chrome on Mac OS Big Sur, so please reach out if you experience bugs or difficulty playing this game on a different browser.
 
 Special thanks to:
 
